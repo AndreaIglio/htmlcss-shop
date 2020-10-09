@@ -1,7 +1,23 @@
-/* RICORDATI DI CAMBIARE IL CURSORE QUANDO PASSI SUI DIV */
+* {
+  margin: ;
+  box-sizing: border-box;
+}
+
+/* CLASSI UTILITY */
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+/* /CLASSI UTILITY */
+
 .container {
-text-align: center;
-margin: 3%;
+  text-align: center;
+  margin: 3%;
 }
 
 div.container > :first-child {
@@ -26,14 +42,6 @@ div.container > :first-child {
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.discount.bg-green {
-  background-color: green;
-}
-
-.discount.bg-red {
-  background-color: red;
 }
 
 i {
