@@ -7,6 +7,7 @@ text-align: center;
   display: inline-block;
 }
 
+
 .product {
   display: inline-block;
   position: relative;
@@ -17,11 +18,24 @@ text-align: center;
   position: absolute;
   right: 0;
   top: 0;
-  line-height: ;
+}
+
+.discount.bg-green {
+  background-color: green;
+}
+
+.discount.bg-red {
+  background-color: red;
 }
 
 i {
   position: absolute;
   bottom: 4%;
   right: 50%;
+  color: red;
+  display: none;
+}
+
+.product:hover i {
+  display: block;
 }
