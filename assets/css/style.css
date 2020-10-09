@@ -1,1 +1,27 @@
 /* RICORDATI DI CAMBIARE IL CURSORE QUANDO PASSI SUI DIV */
+.container {
+text-align: center;
+}
+
+.products-row {
+  display: inline-block;
+}
+
+.product {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+}
+
+.discount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: ;
+}
+
+i {
+  position: absolute;
+  bottom: 4%;
+  right: 50%;
+}
