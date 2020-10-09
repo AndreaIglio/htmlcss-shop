@@ -7,6 +7,9 @@ text-align: center;
   display: inline-block;
 }
 
+.products-row:hover {
+  cursor: pointer;
+}
 
 .product {
   display: inline-block;
